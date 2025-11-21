@@ -1,0 +1,11 @@
+{
+  "id": "connect-swimm",
+  "title": "Connecting CalcApp to Swimm",
+  "created": "2025-11-21",
+  "tags": ["swimm", "onboarding"],
+  "content": [
+    {"type": "text", "text": "This doc explains how to connect the CalcApp repository to Swimm for improved developer onboarding and continuous documentation."},
+    {"type": "text", "text": "Steps:\n1. Sign in at https://swimm.io/ (create account if needed).\n2. Create or select a Workspace.\n3. Click 'Connect Repository' -> choose GitHub provider.\n4. Install/authorize the Swimm GitHub App if prompted.\n5. Select the 'CalcApp' repository (grant access).\n6. Wait for indexing completion (the repository will appear with status).\n7. Install the Swimm VS Code extension and sign in.\n8. Open `.swm` docs or create new docs referencing code (ExpressionEvaluator.cs, Program.cs etc.).\n9. Commit changes to `.swm` docs along with code.\n10. Use verification tools in the extension to keep docs updated after refactors."},
+    {"type": "text", "text": "Doc Maintenance Tips:\n- Keep a high-level architecture doc updated when adding new projects.\n- Update evaluator overview when adding operators/functions.\n- Remove obsolete references immediately to keep verification clean."}
+  ]
+}
