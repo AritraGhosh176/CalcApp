@@ -1,0 +1,12 @@
+{
+  "id": "expression-evaluator-overview",
+  "title": "Expression Evaluator Overview",
+  "created": "2025-11-21",
+  "tags": ["core", "design"],
+  "content": [
+    {"type": "text", "text": "This document captures the intended design for the ExpressionEvaluator in CalcCore. The file is currently empty and will be implemented to parse and evaluate arithmetic expressions (e.g., '2 + 3 * 4')."},
+    {"type": "text", "text": "Planned capabilities:\n- Support +, -, *, / with correct precedence\n- Parentheses for grouping\n- Graceful error handling for invalid syntax\n- Extensibility for future functions (sin, cos, etc.)"},
+    {"type": "text", "text": "Implementation sketch:\n1. Tokenize input string into numbers, operators, parentheses\n2. Convert to Reverse Polish Notation (Shunting Yard)\n3. Evaluate RPN stack to produce result as double"},
+    {"type": "text", "text": "Testing approach:\n- Unit tests for simple expressions\n- Tests for precedence (2+3*4 vs (2+3)*4)\n- Division by zero error handling\n- Whitespace tolerance"}
+  ]
+}
