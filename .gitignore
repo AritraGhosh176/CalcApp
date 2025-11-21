@@ -1,0 +1,50 @@
+# .NET build artifacts
+bin/
+obj/
+
+# Test results
+TestResults/
+
+# Visual Studio local data
+.vs/
+*.user
+*.suo
+
+# Build configurations
+[Dd]ebug/
+[Rr]elease/
+[Tt]emp/
+
+# NuGet packages
+*.nupkg
+
+# Logs
+*.log
+
+# Coverage
+*.coverage
+coverage*.json
+coverage*.xml
+
+# ReSharper / Rider / IDE settings
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Rider caches
+**/*.cache
+
+# Dotnet tools
+.dotnet/
+
+# Node modules (if later added)
+node_modules/
+
+# Publish output
+publish/
+
+# Generated static assets caches
+**/wwwroot/dist/
+
+# Misc
+*.swp
