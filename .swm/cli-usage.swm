@@ -1,0 +1,12 @@
+{
+  "id": "cli-usage",
+  "title": "CLI Usage Guide",
+  "created": "2025-11-21",
+  "tags": ["cli", "usage"],
+  "content": [
+    {"type": "text", "text": "The CalcCli project exposes a simple command-line interface to evaluate arithmetic expressions."},
+    {"type": "text", "text": "Run examples:\n`dotnet run --project .\\CalcCli\\CalcCli.csproj -- \"(2+3)*4\"` -> 20\n`dotnet run --project .\\CalcCli\\CalcCli.csproj -- \"3+4*2/(1-5)\"` -> 1"},
+    {"type": "text", "text": "Exit Codes:\n- 0 success\n- 1 error (format or divide by zero)."},
+    {"type": "text", "text": "Future Enhancements:\n- Support unary minus.\n- Function support (sin, cos)."}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "testing-strategy",
+  "title": "Testing Strategy",
+  "created": "2025-11-21",
+  "tags": ["testing", "quality"],
+  "content": [
+    {"type": "text", "text": "CalcTests contains xUnit tests validating ExpressionEvaluator correctness and error handling."},
+    {"type": "text", "text": "Coverage Areas:\n- Basic arithmetic operations.\n- Operator precedence.\n- Parentheses grouping.\n- Division by zero error.\n- Invalid character handling."},
+    {"type": "text", "text": "Run tests:\n`dotnet test .\\CalcTests\\CalcCore.Tests.csproj`"},
+    {"type": "text", "text": "Future Tests:\n- Unary minus cases.\n- Large nested expressions.\n- Performance benchmarks (optional)."}
+  ]
+}

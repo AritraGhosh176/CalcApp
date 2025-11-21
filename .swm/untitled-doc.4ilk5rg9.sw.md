@@ -1,20 +1,6 @@
 ---
-title: Analysis
+title: Untitled doc
 ---
-<SwmSnippet path="/CalcCore/ExpressionEvaluator.cs" line="4">
-
----
-
-&nbsp;
-
-&nbsp;
-
-```c#
-
-```
-
----
-
-</SwmSnippet>
+&nbsp;/
 
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBQ2FsY0FwcCUzQSUzQUFyaXRyYUdob3NoMTc2" repo-name="CalcApp"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>

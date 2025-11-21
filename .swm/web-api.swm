@@ -1,0 +1,14 @@
+{
+  "id": "web-api",
+  "title": "Web API Guide",
+  "created": "2025-11-21",
+  "tags": ["api", "web"],
+  "content": [
+    {"type": "text", "text": "The CalcWeb project hosts a minimal API and static UI."},
+    {"type": "text", "text": "Endpoint: GET /calc?expr=<expression>"},
+    {"type": "text", "text": "Response (200): { expression: string, result: number }"},
+    {"type": "text", "text": "Errors (400): { error: string } for invalid syntax or divide by zero."},
+    {"type": "text", "text": "Static UI: Served from wwwroot/index.html; uses fetch to call /calc."},
+    {"type": "text", "text": "Starting server:\n`dotnet run --project .\\CalcWeb\\CalcWeb.csproj` -> http://localhost:5000/"}
+  ]
+}

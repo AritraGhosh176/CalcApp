@@ -1,0 +1,12 @@
+{
+  "id": "architecture-overview",
+  "title": "Architecture Overview",
+  "created": "2025-11-21",
+  "tags": ["architecture", "overview"],
+  "content": [
+    {"type": "text", "text": "CalcApp is a multi-project .NET 8 solution providing arithmetic expression evaluation across CLI and Web interfaces."},
+    {"type": "text", "text": "Projects:\n- CalcCore: Library with ExpressionEvaluator.\n- CalcCli: Console app referencing CalcCore.\n- CalcWeb: Minimal ASP.NET API + static UI referencing CalcCore.\n- CalcTests: xUnit test project referencing CalcCore."},
+    {"type": "text", "text": "Data Flow:\nUser input (CLI args or web query param) -> ExpressionEvaluator (tokenize -> RPN -> stack evaluation) -> result displayed or JSON response."},
+    {"type": "text", "text": "Design Choices:\n- Shunting Yard algorithm for operator precedence.\n- RPN evaluation for simplicity.\n- Minimal API for lightweight hosting.\n- Separate test project for isolation."}
+  ]
+}

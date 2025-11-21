@@ -1,0 +1,11 @@
+{
+  "id": "roadmap",
+  "title": "Project Roadmap",
+  "created": "2025-11-21",
+  "tags": ["roadmap", "planning"],
+  "content": [
+    {"type": "text", "text": "Short-Term:\n- Add unary minus support.\n- Improve error messaging in UI."},
+    {"type": "text", "text": "Medium-Term:\n- Implement function calls (sin, cos, pow).\n- Add constants (pi, e).\n- Add GitHub Actions CI workflow (build, test)."},
+    {"type": "text", "text": "Long-Term:\n- Multi-expression batch evaluation API.\n- Persistence of evaluation history.\n- Authentication for advanced endpoints."}
+  ]
+}

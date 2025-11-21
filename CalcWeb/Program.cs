@@ -3,7 +3,10 @@ using CalcCore;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "CalcWeb running. Use /calc?expr=1+2*3");
+// Serve index.html and static assets
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.MapGet("/calc", (string expr) =>
 {
 	try
